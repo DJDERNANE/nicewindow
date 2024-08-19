@@ -1,0 +1,232 @@
+{
+  "translation": {
+    "auth": {
+      "login": {
+        "title": "Login",
+        "description": "Welcome back!",
+        "labels": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "password_recovery": "Password Recovery",
+        "button": "Login",
+        "register_description": "New user? Register now"
+      },
+      "password_recovery": {
+        "title": "Password Recovery",
+        "description": "Enter your email",
+        "labels": {
+          "email": "Email"
+        },
+        "button": "Send code",
+        "back": "Back"
+      },
+      "register": {
+        "types": {
+          "client": "Client",
+          "carpentry": "Carpentry",
+          "supplier": "Supplier"
+        },
+        "labels": {
+          "firstname": "Firstname",
+          "lastname": "Lastname",
+          "email": "Email",
+          "phone_number": "Phone number",
+          "company_name": "Company name",
+          "password": "Password"
+        },
+        "button": "Register",
+        "footer": "When you create an account, you accept our privacy policies"
+      }
+    },
+    "home": {
+      "title": "Welcome",
+      "estimate": "Estimate",
+      "repair": "Repair",
+      "stock": "Stock",
+      "orders": "Orders",
+      "appointments": "Appointments",
+      "suppliers": "Suppliers",
+      "accounting": "Accounting",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "new_order": {
+      "title": "New Order",
+      "buttons": {
+        "new_client": "New Client",
+        "from_database": "From database"
+      },
+      "all_clients": {
+        "title": "All clients"
+      },
+      "canvas": {
+        "menu": {
+          "create_pdf": "Create an invoice",
+          "close": "Close menu"
+        }
+      }
+    },
+    "stock": {
+      "title": "Stock",
+      "categories": {
+        "title": "Choose category"
+      },
+      "buttons": {
+        "add_to_stock": "Add to stock",
+        "already_on_stock": "Already on stock"
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "neworder": " New Order",
+      "oldorders": " Old Oreders",
+      "confirmorder": " Confirm Order",
+      "tabs": {
+        "profiles": "Profiles",
+        "clients": "Clients",
+        "active": "Active",
+        "histories": "Histories"
+      }
+    },
+    "appointments": {
+      "title": "Appointments",
+      "buttons": {
+        "add_appointment": "Add appointment",
+        "save": "Save",
+        "delete": "Delete",
+        "finish": "Finish"
+      },
+      "labels": {
+        "client_name": "Client name",
+        "client_mobile": "Phone number",
+        "date": "Date",
+        "time": "Time",
+        "label": "Note"
+      }
+    },
+    "suppliers": {
+      "title": "Suppliers",
+      "favorites": "Favorites",
+      "search": "Search",
+      "categories": {
+        "title": "Choose category",
+        "button": "Search"
+      },
+      "add_to_cart": "Add to cart"
+    },
+    "accounting": {
+      "title": "Accounting",
+      "total": "Total",
+      "pending": "Pending"
+    },
+    "settings": {
+      "general": {
+        "title": "Settings",
+        "labels": {
+          "firstname": "Firstname",
+          "lastname": "Lastname",
+          "email": "Email",
+          "phone_number": "Phone number",
+          "company_name": "Company name"
+        },
+        "button": "Save"
+      },
+      "security": {
+        "title": "Security settings",
+        "labels": {
+          "current_password": "Current password",
+          "new_password": "New password",
+          "new_password_confirmation": "New password confirmation"
+        },
+        "button": "Save"
+      },
+      "languages": {
+        "title": "Languages"
+      },
+      "locations": {
+        "title": "Locations",
+        "buttons": {
+          "add": "Add location",
+          "save": "Save"
+        },
+        "labels": {
+          "address": "Address",
+          "responsible_name": "Responsible name",
+          "responsible_mobile": "Responsible mobile"
+        }
+      },
+      "prices": "Pricing",
+      "subscribtions": {
+        "title": "Subscribtions",
+        "button": "Update",
+        "start": "Start date",
+        "end": "End date"
+      },
+      "users": {
+        "title": "Users",
+        "add_description": "يمكنك إضافة مستخدمين يعملون معك من هنا، المستخدمين سيعملون بإسم علامتك التجارة، لا يمكنك حذف مستخدم بعد إضافته، يمكنك فقط تعديله أو تعطيل حسابه.",
+        "buttons": {
+          "add": "Add user",
+          "block": "Block",
+          "activate": "Activate",
+          "edit": "Edit",
+          "save": "Save"
+        },
+        "labels": {
+          "firstname": "Firstname",
+          "lastname": "Lastname",
+          "phone_number": "Phone number",
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "status": {
+      "appointments": {
+        "pending": "Pending",
+        "progress": "Progress",
+        "finished": "Finished",
+        "canceled": "Canceled"
+      },
+      "orders": {
+        "waiting": "Pending",
+        "en_route": "On road",
+        "finished": "Finished",
+        "canceled": "Canceled"
+      },
+      "subscribtions": {
+        "waiting": "Pending",
+        "active": "Active",
+        "expired": "Expired"
+      },
+      "users": {
+        "active": "Active",
+        "blocked": "Block"
+      }
+    },
+    "profit": {
+      "filter": "flilter",
+      "addspend": "Add Spend",
+      "total": "Total",
+      "profit": "Profit",
+      "spend": "Spend",
+      "products": "Products"
+    },
+    "clients": {
+      "name": "name",
+      "phone": " Phone",
+      "address": "Address",
+      "clients": "Clients"
+    },
+    "supplier": {
+      "add": "Add",
+      "from_database": "From database",
+      "myproducts": "My Products",
+      "addnewclient": "+ New client",
+      "myclients": "My Clients",
+      "favoris": "Favoris",
+      "addNewOrder": " + New Order"
+    }
+  }
+}

@@ -1,0 +1,833 @@
+[
+  {
+    "type": "Shape",
+    "props": { "splitDirection": "h" },
+    "children": [{ "type": "HWindow", "props": {} }]
+  },
+  {
+    "props": {
+      "splitDirection": "h",
+      "door": true,
+      "frameHeightValue": "2200",
+      "frameWidthValue": "80"
+    },
+    "children": [
+      {
+        "props": {
+          "height": "100%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "HWindow"
+      }
+    ]
+  },
+  {
+    "props": {
+      "splitDirection": "v",
+      "frameHeightValue": "2200",
+      "frameWidthValue": "160",
+      "door": true
+    },
+    "children": [
+      {
+        "props": {
+          "width": "50%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "HWindow"
+      },
+      {
+        "props": {
+          "width": "50.00000000000001%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "HWindow"
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": { "splitDirection": "v" },
+    "children": [
+      { "type": "HWindow", "props": {} },
+      { "type": "HWindow", "props": {} }
+    ]
+  },
+  {
+    "changed": true,
+    "props": {
+      "splitDirection": "h",
+      "equal": false
+    },
+    "children": [
+      {
+        "props": {
+          "height": "20%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 10
+            }
+          ]
+        },
+        "type": "HWindow"
+      },
+      {
+        "props": {
+          "height": "80%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 11
+            }
+          ]
+        },
+        "type": "HWindow"
+      }
+    ]
+  },
+  {
+    "changed": true,
+    "props": {
+      "splitDirection": "h",
+      "equal": false,
+      "door": true
+    },
+    "children": [
+      {
+        "props": {
+          "height": "20%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 10
+            }
+          ]
+        },
+        "type": "HWindow"
+      },
+      {
+        "props": {
+          "height": "80%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "HWindow"
+      }
+    ]
+  },
+  {
+    "changed": true,
+    "props": {
+      "splitDirection": "h",
+      "equal": false,
+      "frameHeightValue": 2500,
+      "frameWidthValue": 1500
+    },
+    "children": [
+      {
+        "props": {
+          "height": "11%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 10
+            }
+          ]
+        },
+        "type": "HWindow"
+      },
+      {
+        "props": {
+          "length": 2,
+          "height": "88.99999999999999%",
+          "children": [
+            {
+              "width": "50%",
+              "modelIndex": 4
+            },
+            {
+              "width": "50%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "VWindow"
+      }
+    ]
+  },
+  {
+    "changed": true,
+    "props": {
+      "splitDirection": "h",
+      "equal": false,
+      "frameHeightValue": 2500,
+      "frameWidthValue": 1500,
+      "door": true
+    },
+    "children": [
+      {
+        "props": {
+          "height": "11%",
+          "children": [
+            {
+              "height": "100%",
+              "modelIndex": 10
+            }
+          ]
+        },
+        "type": "HWindow"
+      },
+      {
+        "props": {
+          "length": 2,
+          "height": "88.99999999999999%",
+          "children": [
+            {
+              "width": "50%",
+              "modelIndex": 4
+            },
+            {
+              "width": "50%",
+              "modelIndex": 4
+            }
+          ]
+        },
+        "type": "VWindow"
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": { "splitDirection": "h", "equal": false },
+    "children": [
+      { "type": "HWindow", "props": {} },
+      { "type": "HWindow", "props": {} }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": { "splitDirection": "h", "equal": false },
+    "children": [
+      { "type": "HWindow", "props": {} },
+      { "type": "VWindow", "props": { "length": 2 } }
+    ]
+  },
+
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h",
+      "equal": false
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h"
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h"
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h",
+      "equal": false
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h"
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h",
+      "equal": false
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h"
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "h",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {
+          "length": 3
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "VWindow",
+        "props": {}
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "VWindow",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v",
+      "equal": true
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 2,
+          "equal": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "Shape",
+    "props": {
+      "splitDirection": "v"
+    },
+    "children": [
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      },
+      {
+        "type": "HWindow",
+        "props": {
+          "length": 3
+        }
+      }
+    ]
+  }
+]
