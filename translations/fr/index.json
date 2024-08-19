@@ -1,0 +1,206 @@
+{
+  "translation": {
+    "auth": {
+      "login": {
+        "title": "تسجيل الدخول",
+        "description": "مرحبا مجددا",
+        "labels": {
+          "email": "البريد الإلكتروني",
+          "password": "كلمة المرور"
+        },
+        "password_recovery": "إسترجاع كلمة المرور",
+        "button": "دخول",
+        "register_description": "مستخدم جديد؟ سجل الآن"
+      },
+      "password_recovery": {
+        "title": "إسترجاع كلمة المرور",
+        "description": "أدخل بريدك الإلكتروني ليتم إرسال الكود",
+        "labels": {
+          "email": "البريد الإلكتروني"
+        },
+        "button": "إرسال الكود",
+        "back": "عودة"
+      },
+      "register": {
+        "types": {
+          "client": "زبون",
+          "carpentry": "نجار",
+          "supplier": "ناقل"
+        },
+        "labels": {
+          "firstname": "الإسم",
+          "lastname": "اللقب",
+          "email": "البريد الإلكتروني",
+          "phone_number": "رقم الهاتف",
+          "company_name": "إسم الشركة",
+          "password": "كلمة المرور"
+        },
+        "button": "تسجيل",
+        "footer": "بفتحك حساب جديد، أنت توافق على سياسة الخصوصية الخاصة بنا"
+      }
+    },
+    "home": {
+      "title": "مرحبا",
+      "estimate": "طلب جديد",
+      "repair": "تصليح",
+      "stock": "المخزون",
+      "orders": "الطلبات",
+      "appointments": "المواعيد",
+      "suppliers": "الناقلين",
+      "accounting": "الأرباح",
+      "settings": "إعدادات",
+      "logout": "تسجيل الخروج"
+    },
+    "new_order": {
+      "title": "طلب جديد",
+      "buttons": {
+        "new_client": "زبون جديد",
+        "from_database": "من قاعدة البيانات"
+      },
+      "all_clients": {
+        "title": "كل الزبائن"
+      },
+      "canvas": {
+        "menu": {
+          "create_pdf": "إنشاء فاتورة",
+          "close": "غلق القائمة"
+        }
+      }
+    },
+    "stock": {
+      "title": "المخزون",
+      "categories": {
+        "title": "إختر التصنيف"
+      },
+      "buttons": {
+        "add_to_stock": "إضافة للمخزون",
+        "already_on_stock": "موجودة في مخزنك"
+      }
+    },
+    "orders": {
+      "title": "الطلبات",
+      "tabs": {
+        "profiles": "السلع",
+        "clients": "الزبائن",
+        "active": "نشطة",
+        "histories": "قديمة"
+      }
+    },
+    "appointments": {
+      "title": "المواعيد",
+      "buttons": {
+        "add_appointment": "إضافة موعد",
+        "save": "حفظ",
+        "delete": "حذف",
+        "finish": "مكتملة"
+      },
+      "labels": {
+        "client_name": "إسم الزبون",
+        "client_mobile": "رقم الهاتف",
+        "date": "التاريخ",
+        "time": "الوقت",
+        "label": "ملاحظة"
+      }
+    },
+    "suppliers": {
+      "title": "الناقلين",
+      "favorites": "المفضلة",
+      "search": "بحث",
+      "categories": {
+        "title": "إختر التصنيف",
+        "button": "بحث"
+      },
+      "add_to_cart": "إضافة للسلة"
+    },
+    "accounting": {
+      "title": "الأرباح",
+      "total": "المجموع",
+      "pending": "أموال قيد الإنتظار"
+    },
+    "settings": {
+      "general": {
+        "title": "إعدادات عامة",
+        "labels": {
+          "firstname": "الإسم",
+          "lastname": "اللقب",
+          "email": "البريد الإلكتروني",
+          "phone_number": "رقم الهاتف",
+          "company_name": "إسم الشركة"
+        },
+        "button": "حفظ"
+      },
+      "security": {
+        "title": "إعدادات الحماية",
+        "labels": {
+          "current_password": "كلمة المرور الحالية",
+          "new_password": "كلمة المرور الجديدة",
+          "new_password_confirmation": "تأكيد كلمة المرور"
+        },
+        "button": "حفظ"
+      },
+      "languages": {
+        "title": "اللغات"
+      },
+      "locations": {
+        "title": "العناوين",
+        "buttons": {
+          "add": "إضافة عنوان",
+          "save": "حفظ"
+        },
+        "labels": {
+          "address": "العنوان",
+          "responsible_name": "إمس المسؤول",
+          "responsible_mobile": "رقم الهاتف"
+        }
+      },
+      "prices": "الأسعار",
+      "subscribtions": {
+        "title": "الإشتراك",
+        "button": "تحديث",
+        "start": "تاريخ البداية",
+        "end": "تاريخ النهاية"
+      },
+      "users": {
+        "title": "المستخدمين",
+        "add_description": "يمكنك إضافة مستخدمين يعملون معك من هنا، المستخدمين سيعملون بإسم علامتك التجارة، لا يمكنك حذف مستخدم بعد إضافته، يمكنك فقط تعديله أو تعطيل حسابه.",
+        "buttons": {
+          "add": "إضافة مستخدم",
+          "block": "حظر",
+          "activate": "تنشيط",
+          "edit": "تعديل",
+          "save": "حفظ"
+        },
+        "labels": {
+          "firstname": "الإسم",
+          "lastname": "اللقب",
+          "phone_number": "رقم الهاتف",
+          "email": "البريد الإلكتروني",
+          "password": "كلمة المرور"
+        }
+      }
+    },
+    "status": {
+      "appointments": {
+        "pending": "قيد الإنتظار",
+        "progress": "قيد التنفيذ",
+        "finished": "مكتملة",
+        "canceled": "ملغية"
+      },
+      "orders": {
+        "waiting": "قيد الإنتظار",
+        "en_route": "في الطريق",
+        "finished": "مكتملة",
+        "canceled": "ملغية"
+      },
+      "subscribtions": {
+        "waiting": "قيد الإنتظار",
+        "active": "نشطة",
+        "expired": "منتهية الصلاحية"
+      },
+      "users": {
+        "active": "نشط",
+        "blocked": "محظور"
+      }
+    }
+  }
+}

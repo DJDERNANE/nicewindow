@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "nicewindow",
+    "slug": "nice-window",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#64c08c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "Allow access to save images to your gallery."
+      },
+      "bundleIdentifier": "tech.nicewindow.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#64c08c"
+      },
+      "package": "tech.nicewindow.app",
+      "permissions": [
+        "android.permission.CAMERA_ROLL",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      "expo-tracking-transparency"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a4f888a-b3b7-4c86-bf37-f720b00c1335"
+      }
+    },
+    "owner": "amine_takdenti10"
+  }
+}
